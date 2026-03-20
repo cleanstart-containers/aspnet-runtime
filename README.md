@@ -5,29 +5,18 @@ The CleanStart Aspnet-Runtime image provides a production-ready, security-harden
 📌 **Base Foundation**: Production-ready container from cleanstart.
 
 **Image Path**: `ghcr.io/cleanstart-containers/aspnet-runtime`
+
 **Registry**: cleanstart Registry
-
-## Key Features
-Core capabilities and strengths of this container
-
-
-
-## Common Use Cases
-Typical scenarios where this container excels
-
 
 
 ## Pull Latest Image
 Download the container image from the registry
 
 ```bash
-docker pull ghcr.io/cleanstart-containers/aspnet-runtime:aspnet-runtime
+docker pull ghcr.io/cleanstart-containers/aspnet-runtime:latest
 ```
 ```bash
-docker pull ghcr.io/cleanstart-containers/aspnet-runtime:container
-```
-```bash
-docker pull ghcr.io/cleanstart-containers/aspnet-runtime:enterprise
+docker pull ghcr.io/cleanstart-containers/aspnet-runtime:latest-dev
 ```
 
 ## Basic Run
@@ -67,10 +56,6 @@ Configuration options available through environment variables
 |----------|---------|-------------|
 | ENV | production | Environment mode |
 | LOG_LEVEL | info | Logging level |
-
-## Security Best Practices
-Recommended security configurations and practices
-
 
 
 ## Kubernetes Security Context
